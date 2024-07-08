@@ -1,9 +1,23 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.Anotações_app_kotlin" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <style name="Theme.Anotacoes_app_kotlin" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/app_bar</item>
+        <item name="android:colorBackground">@color/app_bar</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/app_bar</item>
+
+        <!-- Status bar color. -->
+        <item name="android:windowIsTranslucent" >true</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <!-- Customize your theme here. -->
     </style>
 
-    <style name="Theme.Anotações_app_kotlin" parent="Base.Theme.Anotações_app_kotlin" />
+
+    <style name="Theme.Anotacoes_app_kotlin.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Anotacoes_app_kotlin.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
