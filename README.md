@@ -1,5 +1,5 @@
 # Minhas anotações
-Aplicativo desenvolvido em kotlin para salvar anotações diárias para não esquecer de nada.  
+Aplicativo desenvolvido em kotlin para salvar anotações diárias e não esquecer de nada.  
 Este app utiliza sharedPreferences para armazenar as anotações do usuário.
 
 ## Screenshot:
